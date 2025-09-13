@@ -39,14 +39,14 @@ export default function App(): JSX.Element {
     "Cinci prieteni ne distrăm.",
     "Vlad Jurj focul îl veghează,",
     "Bogdan grătarul înflăcărează.",
-    "Vlad Siculan sparge lemne,",
+    "Vlad Șiculan sparge lemne,",
     "Nico și Rebeca stau pe perne.",
     "Cu manele și bere rece,",
     "Nimeni nu ne-ntrece!",
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-rose-50 to-yellow-50 flex flex-col items-center py-8 px-4">
+    <div className="min-h-screen bg-gradient-to-b bg-[#f5b6b3] flex flex-col items-center py-8 px-4">
       <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-center">Marea Ciubăreală — Countdown</h1>
 
       <Card className="w-full max-w-md mb-6">
