@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* micro styles for components */
+.btn { @apply inline-flex items-center px-4 py-2 rounded-md text-sm font-medium border; }
+.btn-ghost { @apply bg-transparent border-gray-300 hover:bg-gray-50; }
+.btn-primary { @apply bg-gray-900 text-white border-transparent hover:bg-black; }
+.input { @apply px-3 py-2 border rounded-md w-full; }
+.card { @apply bg-white shadow rounded-lg; }
+.card-header { @apply px-4 py-3 border-b; }
+.card-content { @apply p-4; }
+
+/* mobile optimizations */
+body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
